@@ -5,6 +5,10 @@
 
 Je choisis la valeur du premier chiffre ainsi que le deuxième, ensuite je vérifis quelle opération faire et en fonction de ça, j'execute une certaine condition.
 
+__Dépendences :__
+
+```pip install colorama```
+
 💖 Enjoy
 
 🎫 Mon Discord: Gabin#7955
