@@ -1,3 +1,7 @@
+from colorama import Fore, init
+
+init()
+
     # Initalisations:
 
 first_number = 0
@@ -9,10 +13,10 @@ replay = True
 
 while replay == True:
     try:
-        choice_1 = int(input("Entrez le premier chiffre: "))
+        choice_1 = int(input(Fore.MAGENTA + "Entrez le premier chiffre: "))
         choice_2 = int(input("Entrez le second chiffre: "))
     except:
-        print("Erreur")
+        print(Fore.RED + "Erreur")
 
     operation = int(input("""\nEntrez le type d'opération
     1. Addition
@@ -25,15 +29,15 @@ while replay == True:
     # Vérifications:
 
     if operation == 1:
-        print("Le résultat de l'addition est:", choice_1 + choice_2)
+        print(Fore.LIGHTGREEN_EX + "Le résultat de l'addition est:", choice_1 + choice_2)
     elif operation == 2:
-        print("Le résultat de la soustraction est:", choice_1 - choice_2)
+        print(Fore.LIGHTGREEN_EX + "Le résultat de la soustraction est:", choice_1 - choice_2)
     elif operation == 3:
-        print("Le résultat de la multiplication est:", choice_1 * choice_2)    
+        print(Fore.LIGHTGREEN_EX + "Le résultat de la multiplication est:", choice_1 * choice_2)    
     elif operation == 4:
-        print("Le résultat de la division est:", choice_1 / choice_2)
+        print(Fore.LIGHTGREEN_EX + "Le résultat de la division est:", choice_1 / choice_2)
     else:
-        print("Erreur")
+        print(Fore.RED + "Erreur")
 
     # Rejouer le code:
 
@@ -44,5 +48,5 @@ while replay == True:
     elif replay == "n":
         replay = False
     else:
-        print("Erreur.")
+        print(Fore.RED + "Erreur.")
         replay == False
