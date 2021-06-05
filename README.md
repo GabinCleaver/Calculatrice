@@ -8,3 +8,5 @@ Je choisis la valeur du premier chiffre ainsi que le deuxième, ensuite je véri
 💖 Enjoy
 
 🎫 Mon Discord: Gabin#7955
+
+![calculatrice](https://user-images.githubusercontent.com/79531012/120892647-a3368380-c60f-11eb-96a9-c049423644c8.png)
